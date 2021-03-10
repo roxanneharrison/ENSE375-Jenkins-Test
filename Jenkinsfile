@@ -26,11 +26,11 @@ pipeline {
             }
         }
 
-        stage('Deploy'){
-            steps{
-                sh 'cd src/ ; java Calculator' 
-            }
-        }
+        // stage('Deploy'){
+        //     steps{
+        //         sh 'cd src/ ; java Calculator' 
+        //     }
+        // }
     }
 
 }
